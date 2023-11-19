@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主供
+rear camera:s5k3l6  合力泰
+front camera:gc5035  合力泰
+sub camera:olive_ov02a10_ofilm   合力泰
+ 
+二供
+rear camera:hi1336 天实
+front camera:hi556 金康
+sub camera:gc2375h  成像通
+ 
+三供
+third
+rear camera:ov13b10     同兴达
+front camera:gc5035_ly  联益
+sub camera:gc2375h_kg  金康
+四供
+fourth
+rear camera:ov13b10_qt 邱泰
+front camera:hi556_txd   同兴达
+sub camera:gc2375h_kg   金康 -->
+<Sensors>
+    <!-- ZQL1838 code for factory by zhangle at 2020/06/12 start. -->
+    <!-- switch for mixchecker -->
+    <Switch need_check_mix="false"></Switch>
+    <!-- switch for samsung omitdata -->
+    <Switch need_write_omitdata="false"></Switch>
+
+    <!-- configuration for calibration ids -->
+    <Id back_main="0" back_aux="3"></Id>
+
+    <!-- ZQL1838 code for factory by zhangle at 2020/06/29 start. -->
+    <!-- tolerance for Width/Heigth -->
+    <Config aspect_tolerance="0.020"></Config>
+    <!-- ZQL1838 code for factory by zhangle at 2020/06/29 end. -->
+
+    <!-- configuration for different sensor ids -->
+    <Item back_main_camera="doom1_s5kgm1st_txd"  back_aux2_camera= "doom1_gc02m1b_cxt" filepath="/vendor/lib/dualcali_golden_doom1_s5kgm1st_txd-doom1_gc02m1b_cxt.bin"></Item>
+    <Item back_main_camera="doom2_s5kgm1st_hs"  back_aux2_camera= "doom1_gc02m1b_cxt" filepath="/vendor/lib/dualcali_golden_doom2_s5kgm1st_hs-doom1_gc02m1b_cxt.bin"></Item>
+    <Item back_main_camera="doom1_s5kgm1st_txd"  back_aux2_camera= "doom2_ov02b1b_ly" filepath="/vendor/lib/dualcali_golden_doom1_s5kgm1st_txd-doom2_ov02b1b_ly.bin"></Item>
+    <Item back_main_camera="doom2_s5kgm1st_hs"  back_aux2_camera= "doom2_ov02b1b_ly" filepath="/vendor/lib/dualcali_golden_doom2_s5kgm1st_hs-doom2_ov02b1b_ly.bin"></Item>
+    <!-- ZQL1838 code for factory by zhangle at 2020/06/12 end. -->
+</Sensors>

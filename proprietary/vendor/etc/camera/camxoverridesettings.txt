@@ -1,0 +1,6 @@
+multiCameraEnable=TRUE
+multiCameraFPSMatchMask=0x1
+multiCameraFrameSyncMask=0x1
+multiCameraHWSyncMask=0x1
+multiCamera3ASync=QTI
+numPCRsBeforeStreamOn=0
